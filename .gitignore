@@ -20,3 +20,21 @@ build
 # other
 eclipse
 run
+
+config/
+logs/
+crash-reports/
+mods/
+
+usercache.json
+usernamecache.json
+servers.dat
+options.txt
+.ReAuth.cfg
+
+/modcore/config.toml
+/gradle/wrapper/gradle-wrapper.jar
+/gradle/wrapper/gradle-wrapper.properties
+/modcore/metadata.json
+/modcore/Sk1er Modcore-0.1.51 (1.8.9).jar
+.mixin.out/
