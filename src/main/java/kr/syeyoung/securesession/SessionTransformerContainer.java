@@ -16,8 +16,8 @@ public class SessionTransformerContainer extends DummyModContainer {
     public SessionTransformerContainer() {
         super(new ModMetadata());
         ModMetadata meta = getMetadata();
-        meta.modId = "$SecuredSession";
-        meta.name = "SecuredSession";
+        meta.modId = "$SecureSession";
+        meta.name = "SecureSession";
         meta.version = "1.0";
         meta.credits = "syeyoung";
         meta.authorList = Arrays.asList("syeyoung#3876 (cyoung06@naver.com)");
