@@ -8,7 +8,7 @@ import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 import java.util.Map;
 
-@IFMLLoadingPlugin.MCVersion("1.7.10")
+@IFMLLoadingPlugin.MCVersion("1.8.9")
 @IFMLLoadingPlugin.TransformerExclusions({"kr.syeyoung.securesession"})
 public class SecureSession implements IFMLLoadingPlugin {
     @Override
