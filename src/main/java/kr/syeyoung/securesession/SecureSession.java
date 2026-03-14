@@ -61,6 +61,7 @@ public class SecureSession implements IFMLLoadingPlugin {
             Reflection.registerFieldsToFilter(Session.class,Session.class.getDeclaredField(SessionTransformer.name).getName());
             // Remove the way I used to replace security manager
             Reflection.registerMethodsToFilter(Class.class, Class.class.getDeclaredMethod("getDeclaredFields0", boolean.class).getName());
+            Reflection.registerMethodsToFilter(Class.class, Class.class.getDeclaredMethod("getDeclaredMethods0", boolean.class).getName());
         } catch (NoSuchMethodException | NoSuchFieldException e) {
             e.printStackTrace();
         }
